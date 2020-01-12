@@ -61,5 +61,3 @@ def w(msg, m):
     f = None
     [_setup(stage, open(k, m)) for stage,k in enumerate(getE())]
     # logger.debug(_m)
-        
-
