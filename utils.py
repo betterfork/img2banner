@@ -1,18 +1,17 @@
-import numpy as np 
 
-def getAverageL(image): 
-  
-    """ 
-    Given PIL Image, return average value of grayscale value 
-    """
-    # get image as numpy array 
-    im = np.array(image) 
-  
-    # get shape 
-    w,h = im.shape 
-  
-    # get average 
-    return np.average(im.reshape(w*h)) 
+# def getAverageL(image): 
+#   
+#     """ 
+#     Given PIL Image, return average value of grayscale value 
+#     """
+#     # get image as numpy array 
+#     im = np.array(image) 
+#   
+#     # get shape 
+#     w,h = im.shape 
+#   
+#     # get average 
+#     return np.average(im.reshape(w*h)) 
 
 
 class Init(object):
